@@ -8,19 +8,28 @@
     android:orientation="vertical"
     tools:context=".MainActivity"
     >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageBall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/world_stock" />
+
     <Button
-        android:id="@+id/btnCircleRotationAnimation"
+        android:id="@+id/btnStart"
         android:layout_width="170dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:text="Start CircleRotationAnimation" />
+        android:text="Start Animation" />
 
     <Button
-        android:id="@+id/btnFoldingCellAnimation"
+        android:id="@+id/btnStop"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:text="Stop FoldingCellAnimation" />
+        android:text="Stop Animation" />
 </LinearLayout>
